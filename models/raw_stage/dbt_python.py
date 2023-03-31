@@ -12,6 +12,6 @@ def model(dbt, session):
 
 # To print out the first 10 rows, call df_table.show()
 
-    df_result = df_table2.show()
+    df_result = df_table2.describle()
 
     return df_result
