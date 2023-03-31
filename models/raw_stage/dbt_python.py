@@ -2,7 +2,7 @@ import snowflake.snowpark.functions as f
 from snowflake.snowpark.functions import col
 
 def model(dbt, session):
-    dbt.config=(materialized= "view")
+   # dbt.config=(materialized= "view")
 
 # Create a DataFrame from the data in the "sample_product_data" table.
 
