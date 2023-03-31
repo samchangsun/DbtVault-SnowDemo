@@ -1,1 +1,1 @@
-select * from ref(raw_orders) limit 10
+select * from {{ ref('raw_orders') }} limit 10
