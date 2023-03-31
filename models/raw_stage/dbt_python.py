@@ -15,4 +15,4 @@ from
 
     df_result = df_table2.show()
 
-    return df_rsult
+    return df_result
