@@ -1,5 +1,5 @@
-import snowflake.snowpark.functions as f
-from snowflake.snowpark.functions import col
+#import snowflake.snowpark.functions as f
+#from snowflake.snowpark.functions import col
 
 def model(dbt, session):
         
